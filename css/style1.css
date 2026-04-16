@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #280872;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0px 10px;
+    border-right: 1px dotted #f9f9f9;
+    padding-right: 20px;
+}
+
+header nav ul li a:hover {
+    font-weight: bold;
+    background-color: lightblue;
+    border-radius: 5px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    display: inline-block;
+    transition: 0.3s;
+}
+
+section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+}
+
+.menu-item img {
+    max-width: 40%;
+    border-radius: 10px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+}
+
+#hours {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+}
+
+#hours p {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+footer {
+    background-color: #280872;
+    color: #fff;
+    text-align: center;
+    padding: 2px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.lokasi {
+    color: blue;
+}
+
+#about p::first-letter {
+    font-size: 40px;
+    font-weight: bold;
+    color: blue;
+}
+
+::selection {
+    background-color: yellow;
+    color: black;
+}
